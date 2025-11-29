@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="./css./index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+  <!--------------------------------------NAV BAR STARTS----------------------------------------------------------------->
+
+  <nav class="navbar navbar-expand-lg  navbar-dark color navbar border  border-primary py-4 opacity">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#intro">TRAVELLING</a>
+      <span class="fw-bold text-white  "><i
+            class="bi bi-airplane-fill me-2"></i>CHEAP AIR TRAVELLERS </span>
+      
+
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-secondary"></span>
+
+      </button>
+
+      <div class="mx-auto ">
+        <a href="#hotels" class=" text-white btn btn-primary  rounded-pill  ">home</a>
+        <a href="#hotels" class=" text-white btn btn-primary  rounded-pill ">destinations</a>
+        <a href="#hotels" class=" text-white btn btn-primary  rounded-pill  ">gallery</a>
+        <a href="#hotels" class=" text-white btn btn-primary mt-3 rounded-pill  "><i class="bi bi-telephone-forward-fill me-2"></i>contact us</a>
+        <a href="#hotels" class=" text-white mt-3 btn btn-primary  rounded-pill ">about-us</a>
+      </div>
+
+
+      <div class="ms-auto">
+        <nav class="navbar bg-body-none  mx-auto">
+          <div class="container-fluid">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="search for flights.."
+                aria-label="Search" />
+              <button class="btn btn-outline-primary text-white" type="submit"><i class="bi bi-search-heart-fill"></i></button><br>
+            </form>
+          </div><br><br>
+          <div class="d-flex mt-5 ">
+            <a href="#hotels" class=" text-white btn btn-primary  rounded-pill me-3 "><i
+          class="bi bi-airplane-fill me-2"></i>Flights</a>
+            <button id="openAlertBtn" class="color text-white btn btn-outline-secondary me-3 rounded-pill"><i
+                class="bi bi-person-circle me-2"></i>Sign-In</button>
+            <a href="#hotels" class="color text-white btn btn-outline-secondary  rounded-pill me-3"><i
+                class="bi bi-lamp-fill me-2"></i>hotels</a>
+
+            <a href="#hotels" class="color text-white btn btn-outline-secondary  rounded-pill "><i class="bi bi-car-front-fill me-2"></i>car hire</a>
+          </div>
+
+        </nav>
+      </div>
+    </div>
+    </div>
+    </div><br><br>
+
+  </nav><br><br>
+  <!-----------------------------------------------------NAV BAR ENDS------------------------------------------------------------->
+ <!------------------------------------------------CARAUSOLE STARTS ---------AND SECTION #INTRO------------------------------------>
+  <section id="intro" class=" ">
+    <div class="d-flex flex-wrap  ">
+      <div id="carouselExampleSlidesOnly" class="carousel slide carousel shadow-lg " data-bs-ride="carousel"
+        style="width: 50%;height: 20%;">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./best1.jpg" class="d-block w-100  border rounded animation "
+              alt=".antelopes..">
+            <div class="carousel-caption d-none d-md-block ">
+              <h5 class="fw-bold">CHEAP AIR TRAVELLERS</h5>
+             
+              <p class="lead">Can't Decide where to go ? "Explore every destination</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="intro" class=" mt-5"></section>
+      <div id="carouselExampleSlidesOnly" class="carousel slide carousel shadow-lg  " data-bs-ride="carousel"
+        style="width: 50%;height: 20%;">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./FOR1.jpg" class="d-block w-100  border rounded animation" alt=".gorilla..">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Mombasa </h4>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./FOR2.jpg" class="d-block w-100 border rounded animation" alt=".lake..">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Zanzibar cost</h4>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./FOR4.jpg" class="animation d-block w-100 border rounded" alt=".queen elizabeath National park..">
+            <div class="carousel-caption d-none d-md-block ">
+              <h4>Travel & Explore</h4>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------------------------CARUSOLE ENDS----AND SECTION #INTRO---------------------------------->
+
+ 
+  <!------------------------------------------------------card start----------------------------------->
+
+  <section id="intro">
+    <div class="card w-90 mb-3 me-3 ms-3 mt-5  ">
+
+      <div class="card-body  color rounded">
+
+        <h3 class="text-white">Cheap Air Travellers</h3>
+
+        <div class="d-flex justify-content-around flex-wrap ">
+
+          <div class="card" style="width: 18rem;">
+            <img src="./02.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Flights</h5>
+              <div class="pb-2 text-warning ">
+                <p lead>3.5
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>(23) Reviews
+                </p>
+              </div>
+              <p class="card-text">Up to $40 discount</p>
+              <a href="#" class="btn btn-primary">Get promo code</a>
+            </div>
+          </div>
+
+
+
+          <div class="card  animation" style="width: 18rem;">
+            <img src="./04.webp" class="card-img-top animation" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title">Hotels</h5>
+              <div class="pb-2 text-warning ">
+                <p lead>3.5
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>(23) Reviews
+                </p>
+              </div>
+              <p class="card-text">Up to $40 discount</p>
+              <a href="#" class="btn btn-primary animation">Get promo code</a>
+            </div>
+          </div>
+
+          <div class="card  animation" style="width: 18rem;">
+            <img src="./03.webp" class="card-img-top animation" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Car Rentals</h5>
+              <div class="pb-2 text-warning ">
+                <p lead>2.5
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>(23) Reviews
+                </p>
+              </div>
+              <p class="card-text">Up to $40 discount</p>
+              <a href="#" class="btn btn-primary">Get promo code</a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <!------------------------------------------------------card end----------------------------------->
+
+  </section>
+  <!-------------------------------------------------RECOMENDATIONS- start---------------->
+  <div class="descrip ms-5">
+    <h3>Final destinations </h3>
+    <p class="lead"> Book yourself a flight to all your dream places</p>
+  </div>
+  <div class="d-flex justify-content-around flex-wrap">
+    <div class="card  shadow-lg  animation" style="width: 18rem;">
+      <img src="./MBA-r2x.jpg" class="card-img-top  animation" alt="...">
+      <div class="card-body color text-white  ">
+        <h4 class="card-text text-warning fw-bold">Paris </h4>
+        <div class="pb-2 text-warning ">
+          <p lead> 4.0
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>(9) Reviews
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem;">
+      <img src="./city5.jpeg" class="card-img-top  animation" alt="...">
+      <div class="card-body color text-white  shadow-lg">
+        <h4 class="card-text text-warning fw-bold">London</h4>
+        <div class="pb-2 text-warning ">
+          <p lead> 4.0
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>(9) Reviews
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem;">
+      <img src="./city6.jpeg" class="card-img-top  animation" alt="...">
+      <div class="card-body color text-white  shadow-lg">
+        <h4 class="card-text text-warning fw-bold">France</h4>
+        <div class="pb-2 text-warning ">
+          <p lead> 4.0
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>(9) Reviews
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  
+
+  <div class="d-flex justify-content-around flex-wrap mt-3">
+    <div class="card  shadow-lg  animation" style="width: 18rem;">
+      <img src="./FOR2.jpg" class="card-img-top  animation" alt="...">
+      <div class="card-body color text-white ">
+        <h4 class="card-text text-warning fw-bold">Mombasa </h4>
+        <div class="pb-2 text-warning ">
+          <p lead> 4.0
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>(9) Reviews
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem;">
+      <img src="./FOR1.jpg" class="card-img-top  animation" alt="...">
+      <div class="card-body color text-white  shadow-lg">
+        <h4 class="card-text text-warning fw-bold">Nairobi </h4>
+        <div class="pb-2 text-warning ">
+          <p lead> 4.0
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>(9) Reviews
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem;">
+      <img src="./FOR4.jpg" class="card-img-top  animation" alt="...">
+      <div class="card-body color text-white  shadow-lg">
+        <h4 class="card-text text-warning fw-bold">Zanzibar </h4>
+        <div class="pb-2 text-warning ">
+          <p lead> 4.0
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>(9) Reviews
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-------------------------------------------------RECOMENDATIONS- end---------------->
+
+  <!-------------------------------------------------------------HOTELS--START------------------------------------------------------------->
+
+  <section id="hotels" class="mt-5">
+
+
+    <!---------Breif description for hotels start--------------->
+    <h3 class="text-color ms-5">Accomodations for You</h3>
+    <p class="lead ms-5">We provide you all the services at affordable prices , from, brekfast, lunch, and super.
+      Experince Better Travellers with us.
+      .Having a nice sleep as you wait for. click the button to book a room with us.
+    </p>
+    <!----------Brief description for Hotels ends----------------->
+    <div class="d-flex flex-wrap justify-content-around">
+      <div class="cardshotel">
+        <!----------ViaVia Entebe hotel card-----start-->
+        <div class="animation card mb-3 card shadow-lg" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./hotel5.jpeg" class="img-fluid rounded-start  h-100 animation" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body color text-white rounded">
+
+                <h5 class="card-title"><i class="bi bi-house-door-fill"></i> Via Via Entebe</h5>
+                <h6>Ush 250,000</h6>
+                <div class="pb-2 text-warning ">
+                  <p lead> 4.0
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>(9) Reviews
+                  </p>
+                </div>
+
+                <a href="#" class="btn btn-outline-primary" role="button" onclick=" bookRoom()"> Book a Room</a>
+
+
+                <p class="card-text"><small class="text-body-white">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-------ViaVia Entebe hotel ends----------------->
+
+        <!---Imperial Resort Beach Hotel starts------------>
+        <div class="card mb-3 card shadow-lg animation" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./hotel3.jpeg" class="animation img-fluid rounded-start h-100 animation" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body color text-white rounded">
+
+                <h5 class="card-title "><i class="bi bi-house-door-fill"></i> Imperial Resort Beach Hotel</h5>
+                <h6>Ush 173,000</h6>
+                <div class="pb-2 text-warning ">
+                  <p lead>3.5
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>(19) Reviews
+                  </p>
+
+                </div>
+
+                <a href="#" class="btn btn-outline-primary" role="button" onclick="bookRoom()"> Book a Room</a>
+                <p class="card-text"><small class="text-body-white">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!----------Imperial Resort Beach Hotel Ends----------->
+
+        <!-----------Adam Grands Hotel Entebe Start--------------->
+        <div class="animation card mb-3 card shadow-lg" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./hotel1.jpeg" class="img-fluid rounded-start h-100 animation" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body color text-white rounded">
+                <h5 class="card-title"><i class="bi bi-house-door-fill"></i> Adam Grands Hotel Entebe</h5>
+                <h6>Ush 142,000</h6>
+                <div class="pb-2 text-warning ">
+                  <p lead>2.5
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>(13) Reviews
+                  </p>
+                </div>
+                <a href="#" class="btn btn-outline-primary" role="button" onclick="bookRoom()"> Book a Room</a>
+                <p class="card-text"><small class="text-body-white">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-------Adam Grands Hotel Entebe Ends---------->
+      <!-------------------------------google map start-------------------------------------->
+      <img src="./Map.png" alt="map" class=" shadow-lg rounded">
+    </div>
+    <!----------------------google map end-------------------------------------------------->
+
+
+    <!---------------------------------------------------------------------------HOTELS--ENDS----------------------------------------------->
+
+    <!-----------------------------------------------------BUTTON FOR BACK TO TOP----------------------------------------------->
+
+    <div class="text-center">
+      <a href="#intro" class=" btn btn-sm btn-outline-dark position-fixed bottom-0 end-0 m-3  " role="button">Back To
+        Top</a>
+    </div>
+    <!-----------------------------------------------------BUTTON FOR BACK TO TOP-ENDS--------------------------------------------------->
+
+
+    <!---------------------------------------------------------------Footer start-------------------------------------->
+
+    <footer class="color text-white pt-4 pb-2 mt-5">
+      <div class="container text-center text-md-start">
+
+        <div class="row">
+
+          <div class="col-md-4 mb-3">
+            <h5 class="fw-bold "><i
+          class="bi bi-airplane-fill me-2"></i> CHEAP AIR TRAVELLERS </span></h5>
+
+            <div class="pb-2 text-warning ">
+              <p lead>3.5
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>(23) Reviews
+              </p>
+            </div>
+            <p lead>
+              Travel safe Travel Better
+            </p>
+          </div>
+          <!-------------------------------------------- important  Links ----------------------------------->
+          <div class="col-md-4 mb-3">
+            <h5 class="fw-bold">OTHER IMPORTANT LINKS</h5>
+            <ul class="list-unstyled">
+              <li><a href="https://kalungijoseph.github.io/web-dev-group-O/index.html"
+                  class="text-white text-decoration-none">Home</a></li>
+              <li><a href="https://kalungijoseph.github.io/web-dev-group-O/gallery/gallery.html"
+                  class="text-white text-decoration-none">gallery</a></li>
+              <li><a href="https://kalungijoseph.github.io/web-dev-group-O/about/about.html"
+                  class="text-white text-decoration-none">About us</a></li>
+              <li><a href="https://kalungijoseph.github.io/web-dev-group-O/contact/contact.html"
+                  class="text-white text-decoration-none">Contact us</a></li>
+            </ul>
+          </div>
+          <!--------------------------------------- Social Media Platforms ---------------------------------------->
+          <div class="col-md-4 mb-3">
+            <h5 class="text-uppercase"><i class="bi bi-person-plus-fill"></i>Follow Us on</h5>
+            <a href="https://www.tiktok.com/en/" class="text-dark me-3 fs-4 " ><i class="bi bi-tiktok"></i></a>
+            <a href="https://www.instagram.com/" class="text-danger me-3 fs-4" ><i class="bi bi-instagram"></i></a>
+            <a href="https://x.com/" class="text-dark me-3 fs-4" ><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/" class="text-dark me-3 fs-4"><i class="bi bi-facebook"></i></a>
+
+          </div>
+          <div class="col-4 mb-3">
+            <!-----------------------------------------creator details----------------------------------------------->
+            <h5>Creator Details</h5>
+            <ul>
+              <li>Name : TUMUSIIME EMMANUEL</li>
+              <li>Reg.no: 2025-B071-13686</li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="border-light">
+
+    </footer>
+    <!---------------------------------------------------Footer ends----------------------------------------------->
+    <!---------------------------------------------------- Popup form start--------------------------------->
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <h2>Sign In</h2>
+        <form>
+          <label>Username</label>
+          <input type="text" class="mt-3" required>
+
+          <label>Password</label>
+          <input type="password" class="mt-3" required>
+
+          <button type="submit" class="btn btn-outline-success mt-3">Login</button>
+          <button type="button" id="closePopupBtn" class="btn btn-outline-danger mt-3">Close</button>
+        </form>
+      </div>
+    </div>
+
+    <!---------------------------------------------------- Popup form end--------------------------------->
+
+
+
+    <script src="style.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
