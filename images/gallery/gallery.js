@@ -8,7 +8,7 @@ searchBox.addEventListener('input', () => {
     const query = searchBox.value.toLowerCase();
     galleryItems.forEach(item => {
         const text = item.querySelector('p')?.textContent.toLowerCase() || '';
-        item.style.display = text.inc                                                           nludes(query) ? '' : 'none';
+        item.style.display = text.includes(query) ? '' : 'none';
     });
 });
 // Select input and icon
