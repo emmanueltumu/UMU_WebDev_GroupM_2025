@@ -12,7 +12,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-repeat: no-repeat;
-  background-color: aqua;
+  background-color: rgb(46, 50, 83);
   font-size: large;
   
   line-height: 1.6;
@@ -194,4 +194,8 @@ footer {
 }
 .lead{
   color: black
+}
+
+.color{
+    background-color: rgb(46, 50, 83);
 }
