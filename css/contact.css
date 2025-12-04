@@ -28,7 +28,7 @@
 }
 
 .contact-section {
-    background: url("paris.jpg") center/cover no-repeat;
+    background: url("https://emmanueltumu.github.io/UMU_WebDev_GroupM_2025/images/contact/paris.jpg") center/cover no-repeat;
     padding: 80px 60px;
     display: flex;
     justify-content: space-between;
