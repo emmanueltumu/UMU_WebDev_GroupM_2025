@@ -1,0 +1,367 @@
+.f-r{
+    display: flex;
+}
+.F-R{
+    display: flex;
+}
+.S-R{
+    display: flex;
+}
+.T-R{
+    display: flex;
+}
+.F-r{
+    display: flex;
+}
+.S-A{
+    display: flex;
+    flex-direction: row;
+}
+.L-A{
+    display: flex;
+    flex-direction: row;
+}
+.T-L{
+    display: flex;
+    flex-direction: row;
+}
+.N-L{
+    display: flex;
+    flex-direction: row;
+}
+.J-A{
+    display: flex;
+
+}
+.L-A{
+    display: flex;
+    flex-direction: row;
+}
+.N-K{
+display: flex;
+flex-direction: row;
+}
+.KP{
+    display: flex;
+    flex-direction: row;
+}
+.jk{
+    display: flex;
+    flex-direction: row;
+}
+.f{
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+.nav-right{
+     position: relative;
+    display: inline-block;
+}
+.nav-right i {
+    position: absolute;
+    top: 50%;                  /* vertical center */
+    right: 10px;               /* stick to right end */
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 16px;
+    pointer-events: none;      /* click goes to input */
+}
+nav{
+    background-color:rgb(6, 6, 28);
+    justify-content: space-between ;
+    display: flex;
+    padding: 15px 40px;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid rgb(225, 196, 196);
+}
+ul{
+    display: flex;
+    color:rgb(230, 221, 221);
+    padding: 20px;
+    gap: 20px;
+}
+ul li a{
+    color: rgb(245, 245, 250);
+    font-size: 20px;
+}
+body{
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-attachment: fixed;
+padding: 0;
+background-color: rgb(244, 249, 249);
+overflow-x: hidden;
+}
+h1{
+    color: black; 
+    font-size: ;
+    text-align: center;
+
+}
+p{
+    color: black;
+}
+.logo{
+    color: rgb(239, 239, 244);
+    font-size: 50px;
+    text-align: center;
+    margin-right: 20px;
+    font-weight: bold;
+
+}
+.nav-links li{
+    color:;
+    font-size: 20px;
+}
+.nav-links{
+    display: ;
+    gap: 20px;
+    list-style: none;
+}
+.nav-links a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 20px;
+}
+section h1{
+   background-color:rgb(6, 6, 28);  
+   color: #ddd;
+}
+section link{
+color: #ccc;
+}
+
+
+.title h1{
+    font-size: 50px;
+}
+.gallery-grid{
+    display: flex;
+    gap:10px ;
+    border-radius: 10px;
+    text-align: center;
+}
+.gallery-item p{
+    margin-top: 10px;
+    font-weight: bold;
+    color:rgb(6, 6, 28);
+    text-align: center;
+    
+}
+.gallery-item{
+    padding: 10px;
+    border-radius: 10px;
+    text-align: 10px;
+      background: rgb(236, 235, 235);
+}
+.gallery-item img{
+    width: 225px;
+    height: 225px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin:5px ;
+
+}
+.footer{
+     background-color:rgb(6, 6, 28);
+    color:rgb(231, 223, 223);
+    padding:2opx 5opx 20px ;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.gallery-item img  :active{
+    opacity: 0.8;
+    transition: 0.2s;
+transform: scale(0.9);
+display: block;
+}
+.animation:hover{
+    transform: translateY(-6px);
+    box-shadow: o 12px 28px black;
+
+}
+.footer-bottom{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    margin-top: 30px;
+    color: rgb(222, 229, 229);
+    border-top: 1px solid rgb(255, 255, 255);
+    
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin:0 auto;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    margin-right: 0;
+    padding-right: 0;
+}
+.footer-bottom p{
+    color: rgb(233, 244, 244);
+}
+.footer-section{
+    flex: 1 1 220px;
+}
+.footer-section-1 ul{
+    gap: 10px;
+    flex: 1 1 220px;
+    display:grid;
+    list-style: none;
+    
+}
+.footer-section-1 ul li{
+ padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 14px;
+}
+.footer-section-1 h2{
+    margin: 15px;
+    font-size: 20px;
+    color: rgb(35, 35, 142);
+}
+.footer-section h2{
+     margin: 15px;
+    font-size: 20px;
+    color: rgb(35, 35, 142);
+}
+.footer-section ul{
+    list-style: none;
+    padding: 0;
+    display: grid;
+}
+.footer-section ul li{
+    margin: 10px 0;
+}
+.footer-section ul li a{
+    color: rgb(242, 233, 233);
+    text-decoration: none;
+    column-gap: opx;
+    padding: 0%;
+}
+.footer-section ul li a:hover{
+    color: rgb(6, 5, 5);
+}
+.social-icons a{
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(236, 236, 225);
+    text-decoration: none;
+    margin-right: 10px;
+}
+.social-icons a:hover{
+    color: rgb(35, 35, 99);
+}
+p{
+    color: white;
+}
+.search-box {
+  padding: 7px 12px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+.search-box:focus {
+  border-color: #4285f4;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  margin-right: 20px;
+  color: #f7f7f9;
+  font-weight: bold;
+}
+
+.N-E {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+   background-color:rgb(6, 6, 28);
+}
+
+.N-E li {
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 14px;
+}
+
+.N-E li:hover {
+  background:rgb(102, 40, 40);
+  color: #1a73e8;
+}
+
+.search-box {
+  padding: 7px 12px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+.search-box:focus {
+  border-color: #4285f4;
+}
+.footer-section-1 li:hover{
+    color: #1a73e8;
+    background:rgb(102, 40, 40);
+}
+.search-wrapper {
+    position: relative;
+    width: 250px; /* adjust width */
+}
+
+.search-box {
+    width: 100%;
+    padding: 8px 30px 8px 10px; /* space for the icon */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    pointer-events: none; /* so clicking the icon focuses input */
+}
+.nav-right {
+    position: relative;
+    display: inline-block;
+}
+
+.search-box {
+    width: 200px;              
+    padding: 8px 35px 8px 10px; /* space for icon */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
